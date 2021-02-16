@@ -1,1 +1,71 @@
+* {
+    box-sizing: border-box;
+}
 
+/* ............ header .............................*/
+
+header {
+    background-color: rgba(117, 89, 89, 0.842);
+    padding: .8cm;
+    color: blanchedalmond;
+}
+
+header h1 , header nav {
+    float: left;
+
+}
+
+nav {
+    margin-left: 10cm;
+}
+ul li {
+    display: inline;
+    padding: 8px;
+}
+
+
+/*...................................... main .........................*/
+
+
+.section2 {
+    margin-top: 2em;
+    margin-left: 2cm;
+    margin-bottom: 2em ;
+}
+.subsection1 , .subsection2 , .subsection3 {
+    background-color: gainsboro;
+    float: left;
+    margin: 2px;
+    width: 32%;
+}
+
+
+.section3 {
+    margin-left: 2cm;
+}
+
+.section3 img , .section3 p  {
+    width: 40%;
+    float: left;
+}
+
+.section3 p {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section1 .imgclass {
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 2em;
+}
+
+.foot {
+    margin-top: 2em;
+    background-color:rgba(117, 89, 89, 0.842) ;
+    padding: .8cm;
+    width: 100%;
+    float: left;
+    text-align: center;
+}

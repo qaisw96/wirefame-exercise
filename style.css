@@ -6,7 +6,7 @@
 
 header {
     background-color: rgba(117, 89, 89, 0.842);
-    padding: .8cm;
+    padding: 1cm;
     color: blanchedalmond;
 }
 
@@ -15,33 +15,43 @@ header h1 , header nav {
 
 }
 
+
 nav {
-    margin-left: 10cm;
+    margin-left: 20cm;
 }
 ul li {
     display: inline;
-    padding: 8px;
+    padding: 20px;
 }
+
+
 
 
 /*...................................... main .........................*/
 
+.section1 .imgclass {
+    margin-left: 4cm;
+    margin-right: 4cm;
+    margin-top: 2em;
+    
+}
 
 .section2 {
     margin-top: 2em;
-    margin-left: 2cm;
+    margin-left: 4cm;
     margin-bottom: 2em ;
 }
 .subsection1 , .subsection2 , .subsection3 {
     background-color: gainsboro;
     float: left;
-    margin: 2px;
-    width: 32%;
+    margin: 12px;
+    width: 300px;
+    height: 375px;
 }
 
 
 .section3 {
-    margin-left: 2cm;
+    margin-left: 4cm;
 }
 
 .section3 img , .section3 p  {
@@ -49,17 +59,19 @@ ul li {
     float: left;
 }
 
-.section3 p {
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+.section3 img {
+    margin-top: 2em;
+
 }
 
-.section1 .imgclass {
-    margin-left: 2cm;
-    margin-right: 2cm;
-    margin-top: 2em;
+.section3 p {
+    margin-top: 4em;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 27em;
 }
+
+
 
 .foot {
     margin-top: 2em;
